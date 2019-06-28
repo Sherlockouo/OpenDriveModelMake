@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<OpenDRIVE>
+	<header revMajor="1" revMinor="4" vendor="xhu">
+	</header>
+	<road name="" length= id="3212" junction="-1">
+		<type s="0" type="motorway" >
+		      <speed max="120" unit="km/h" />
+		</type>
+		<planView>
+			<geometry s="0" x="0" y="0" hdg="0" length=>
+				<line />
+			</geometry>
+		</planView>
+		<elevationProfile>
+			<elevation s="0" a="0" b="0" c="0" d="0" />
+		</elevationProfile>
+		<lateralProfile>
+			<superelevation s="0" a="0" b="0" c="0" d="0" />
+		</lateralProfile>
+		<lanes>
+			<laneOffset s="0" a="0" b="0" c="0" d="0" />
+			<laneSection s="0">
+				<left>
+					<lane id="1" type="exit" level="false">
+						<width sOffset="0" a="3.5" b="0" c="0" d="0" />
+						<roadMark sOffset="0" color="standard" width="0.1" weight="standard" type="solid">
+							<type name="solid">
+								<line length= space="0" width="0.1" sOffset="0" tOffset="0" />
+							</type>
+						</roadMark>
+						<speed sOffset="0" max="80" unit="km/h" />
+					</lane>
+				</left>
+				<center>
+					<lane id="0" type="driving" level="false">
+						<roadMark sOffset="0" color="standard" width="0.1" weight="standard" type="solid broken">
+							<type name="solid broken">
+								<line length= space="0" width="0.1" sOffset="0" tOffset="0" />
+								<line length= space="2" width="0.1" sOffset="0" tOffset="0.2" />
+							</type>
+						</roadMark>
+					</lane>
+				</center>
+				<right>
+					<lane id="-1" type="exit" level="false">
+						<width sOffset="0" a="3.5" b="0" c="0" d="0" />
+						<roadMark sOffset="0" color="standard" width="0.1" weight="standard" type="solid">
+							<type name="solid">
+								<line length= space="0" width="0.1" sOffset="0" tOffset="0" />
+							</type>
+						</roadMark>
+						<speed sOffset="0" max="80" unit="km/h" />
+					</lane>
+				</right>
+			</laneSection>
+		</lanes>
+		<objects />
+		<signals />
+	</road>
+</OpenDRIVE>
